@@ -13,7 +13,7 @@ In short:
 ## Reporting
 
 If you see or experience behavior that breaks these rules, contact the
-maintainer privately at CONTACT_EMAIL. All reports are kept confidential.
+maintainer privately at hoangbeard@outlook.com. All reports are kept confidential.
 
 The maintainer may remove comments, commits or issues that break these rules,
 and may block people who keep breaking them.
