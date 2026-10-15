@@ -1,0 +1,36 @@
+name: Bug report
+description: Something does not work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please remove any secrets, tokens or internal hostnames before you submit.
+        For a security issue, do not use this form. Use **Security → Report a vulnerability** instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `...`
+        2. See error
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, tool versions, and the commit or release you used.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant output. It will be shown as code.
+      render: shell
